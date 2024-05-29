@@ -34,24 +34,24 @@ function Contact() {
   ]
   return (
     <div id='contact' className='grid grid-cols-1 lg:grid-cols-3 py-20 m-auto container px-[10%] text-white'>
-      <div className='col-span-1 my-auto '>
+      <div data-aos="fade-down" className='col-span-1 my-auto '>
         <div className=' flex gap-2 mb-3 lg:justify-start justify-center'>
           <RiMailAddLine className='my-auto text-lg' />
           <a className='my-auto' href="mailto:aymanchowhan@gmail.com" target="_blank" rel="noopener noreferrer">aymanchowhan@gmail.com</a>
         </div>
         <div className=' flex gap-2 lg:justify-start justify-center '>
           <TiLocationArrowOutline className='my-auto text-lg' />
-          <div className='my-auto'>Mumbai,India.</div>
+          <div className='my-auto'>Abu Dhabi, UAE.</div>
         </div>
       </div>
 
-      <div className="h-20 col-span-2 lg:flex mb-10 lg:mb-0">
+      <div data-aos="fade-up" className="h-20 col-span-2 lg:flex mb-10 lg:mb-0">
         <div className="h-[2px] w-full lg:h-full lg:w-[2px] my-5 lg:my-0 bg-white rounded-full" />
         <div className='flex lg:gap-10 gap-3 w-full justify-center my-auto'>
         {
           data.map((item,index)=>
-            <Link href={item.path} target="_blank" rel="noopener noreferrer">
-              <div className='text-2xl lg:text-5xl border-2 border-white rounded-full p-3 hover:bg-white hover:text-[#00272B] duration-700'> 
+            <Link key={index} href={item.path} target="_blank" rel="noopener noreferrer">
+              <div className='text-2xl lg:text-5xl border-2 border-white rounded-full p-3 hover:bg-white hover:text-[#52657d] duration-700'> 
               {item.icon}
               </div>
               </Link>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div id='about' className='grid grid-cols-1 lg:grid-cols-3 py-10 lg:py-20 m-auto container px-[10%] text-white'>
+    <div id='about' data-aos="fade-left" className='grid grid-cols-1 lg:grid-cols-3 py-10 lg:py-20 m-auto container px-[10%] text-white'>
       <div className='col-span-1 my-auto '>
         <div className=' flex lg:gap-2 mb-3 text-[36px] justify-center'>
           About

@@ -15,26 +15,26 @@ function index() {
       <Header />
       <Hero />
 
-      <div className='bg-[#00272B]'>
+      <div className='bg-[#52657d]'>
         <About />
       </div>
 
       <Skills />
 
-      <div className='bg-[#00272B]'>
+      <div className='bg-[#52657d]'>
         <Projects />
       </div>
 
       <Experience />
 
-      <div className='bg-[#00272B]'>
+      <div className='bg-[#52657d]'>
         <Achievement />
       </div>
 
 
         <Education />
   
-      <div className='bg-[#00272B]'>
+      <div className='bg-[#52657d]'>
         <Contact />
       </div>
     </>
