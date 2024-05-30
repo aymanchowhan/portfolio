@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education() {
   return (
-    <div className='m-auto container'>
+    <div className='overflow-hidden m-auto container'>
       <div id='education' className='grid grid-cols-1 lg:grid-cols-3 py-10 px-[10%]'>
         <div data-aos="fade-left" className='col-span-1 my-auto'>
           <div className='flex justify-center lg:justify-start text-[36px] font-bold'>

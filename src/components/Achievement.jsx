@@ -22,7 +22,7 @@ function Achievement() {
     <div className='m-auto container text-white'>
       {
         achievements.map((item, index) => (
-          <div key={index} id='about' className='grid grid-cols-1 lg:grid-cols-3 py-10 lg:py-20 px-[10%] bg-[#52657d] h-full'>
+          <div key={index} id='about' className='overflow-hidden grid grid-cols-1 lg:grid-cols-3 py-10 lg:py-20 px-[10%] bg-[#52657d] h-full'>
             <div data-aos="fade-left" className='col-span-1 my-auto'>
               <div className='flex gap-2 mb-3 text-[22px] lg:text-[30px] text-center justify-center'>
                 {item.title}

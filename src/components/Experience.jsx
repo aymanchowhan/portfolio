@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div id='experience' className='container m-auto'>
+    <div id='experience' className='overflow-hidden container m-auto'>
       <div id='experience' className='grid grid-cols-1 lg:grid-cols-3 py-20 m-auto container px-[10%] '>
         <div data-aos="fade-left" className='col-span-1 my-auto '>
           <div className=' flex  justify-center text-[36px] font-bold hover:underline'>

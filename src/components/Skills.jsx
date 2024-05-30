@@ -101,7 +101,7 @@ function Skills() {
     ];
 
     return (
-        <div id='skills' className='container m-auto '>
+        <div id='skills' className=' container m-auto '>
             {skills.map((item, index) => (
                 <div   key={index} id='about' className='grid grid-cols-1 lg:grid-cols-3 py-5 lg:py-20 m-auto container px-[10%] bg-white h-full'>
                     <div className='col-span-1 my-auto'>

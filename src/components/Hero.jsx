@@ -32,7 +32,7 @@ function Hero() {
   const age = calculateAge(dob);
   return (
 
-    <div id='home' className='h-[80vh] container m-auto flex px-[8%] '>
+    <div id='home' className='overflow-hidden h-[80vh] container m-auto flex px-[8%] '>
       <div className='m-auto lg:justify-evenly lg:mb-48 mb-28 grid-cols-1 grid lg:grid-cols-2'>
         <div className='order-1 lg:order-2 col-span-1 mt-10 lg:mt-0 flex justify-center lg:justify-start w-full'>
           {/* <div className='text-center lg:text-left text-[16px]'>
@@ -48,14 +48,14 @@ function Hero() {
             </div>
           </div> */}
           <div className='my-auto lg:text-3xl text-2xl w-full text-center lg:text-left'>
-            <div className=''>Hello, My name is </div>
+            <div className=''>Hi, my name is </div>
             <div className='italic lg:text-7xl text-4xl font-bold lg:mb-3'>Ayman Chowhan,</div>
             <div className='lg:flex'>
-              <div className='lg:mr-2 lg:mt-[10px]'>a <sapn className='font-bold'>{age}</sapn> years old</div>
+              <div className='lg:mr-2 lg:mt-[10px]'>A <sapn className='font-bold'>{age}</sapn> years old</div>
               <div className="lg:text-5xl text-4xl font-semibold text-[#52657d]">
                 <TypewriterComponent
                   options={{
-                    strings: ['React Developer', 'Software Developer', 'bla bla bla'],
+                    strings: ['React Developer', 'Software Developer', ''],
                     autoStart: true,
                     loop: true
                   }}

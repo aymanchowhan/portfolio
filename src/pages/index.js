@@ -14,7 +14,6 @@ function index() {
     <>
       <Header />
       <Hero />
-
       <div className='bg-[#52657d]'>
         <About />
       </div>
@@ -32,8 +31,8 @@ function index() {
       </div>
 
 
-        <Education />
-  
+      <Education />
+
       <div className='bg-[#52657d]'>
         <Contact />
       </div>

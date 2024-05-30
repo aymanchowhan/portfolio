@@ -33,7 +33,7 @@ function Contact() {
     },
   ]
   return (
-    <div id='contact' className='grid grid-cols-1 lg:grid-cols-3 py-20 m-auto container px-[10%] text-white'>
+    <div id='contact' className='overflow-hidden grid grid-cols-1 lg:grid-cols-3 py-20 m-auto container px-[10%] text-white'>
       <div data-aos="fade-down" className='col-span-1 my-auto '>
         <div className=' flex gap-2 mb-3 lg:justify-start justify-center'>
           <RiMailAddLine className='my-auto text-lg' />

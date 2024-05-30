@@ -63,7 +63,7 @@ function Projects() {
 
   ]
   return (
-    <div id='projects' className='m-auto container px-[10%] text-white py-20'>
+    <div id='projects' className='overflow-hidden m-auto container px-[10%] text-white py-20'>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
         {
           data.map((item, index) =>
