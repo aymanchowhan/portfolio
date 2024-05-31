@@ -10,7 +10,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
+.about-bg {
+  clip-path:polygon(50% 49%, 100% 30%, 100% 100%, 0 100%, 0 30%);
+}
 
 /* website image effect */
 .image-wrap {

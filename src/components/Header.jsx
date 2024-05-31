@@ -47,8 +47,8 @@ function Header() {
 
 
   return (
-    <div className='overflow-hidden container m-auto relative'>
-      <div className='flex h-fit justify-end gap-8 py-6 px-30  '>
+    <div className='container m-auto relative'>
+      <div className='flex h-fit justify-end gap-8 py-6 px-30 mr-4 lg:mr-0'>
         <div className='cursor-pointer' onClick={() => setIsOpen(!IsOpen)}>
           {
             IsOpen ?
