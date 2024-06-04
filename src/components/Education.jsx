@@ -25,7 +25,7 @@ function Education() {
         
         <div data-aos="fade-right" className='col-span-1 my-auto'>
           <div className='flex justify-center text-[22px] font-bold'>
-            CGPA- 8.80
+            CGPA- 9.26 (Average)
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ function Education() {
         
         <div data-aos="fade-right" className='col-span-1 my-auto'>
           <div className='flex justify-center text-[22px] font-bold'>
-            Grade: 81.00%
+             81.00%
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ function Education() {
         
         <div data-aos="fade-right" className='col-span-1 my-auto'>
           <div className='flex justify-center text-[22px] font-bold'>
-            Grade: 80.80%
+             80.80%
           </div>
         </div>
       </div>

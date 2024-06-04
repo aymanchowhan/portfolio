@@ -55,7 +55,7 @@ function Hero() {
               <div className="lg:text-5xl text-4xl font-semibold text-[#52657d]">
                 <TypewriterComponent
                   options={{
-                    strings: ['React Developer', 'Software Developer', ''],
+                    strings: ['React Developer', 'Software Developer', 'Front End Developer'],
                     autoStart: true,
                     loop: true
                   }}

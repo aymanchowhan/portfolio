@@ -41,7 +41,7 @@ function Contact() {
         </div>
         <div className=' flex gap-2 lg:justify-start justify-center '>
           <TiLocationArrowOutline className='my-auto text-lg' />
-          <div className='my-auto'>Abu Dhabi, UAE.</div>
+          <div className='my-auto'>Mumbai,India.</div>
         </div>
       </div>
 
